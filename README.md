@@ -12,14 +12,14 @@ modules/user/neovim/
 ├── default.nix # Neovim and plugin declarations for NixOS
 ├── plugins.nix # List of Vim plugins via pkgs.vimPlugins
 └── lua/ # Modular Lua configuration files
-├── init.lua # Main entry point that loads all modules
-├── lsp.lua # LSP configurations (e.g. basedpyright)
-├── cmp.lua # Autocompletion setup with nvim-cmp and LuaSnip
-├── formatter.lua # Code formatting integration
-├── dap.lua # Debug Adapter Protocol (DAP) setup
-├── autopairs.lua # Autopairing brackets and quotes
-├── keymaps.lua # Keybindings and shortcuts
-└── ui.lua # UI-related settings (statusline, theme, etc.)
+    ├── init.lua # Main entry point that loads all modules
+    ├── lsp.lua # LSP configurations (e.g. basedpyright)
+    ├── cmp.lua # Autocompletion setup with nvim-cmp and LuaSnip
+    ├── formatter.lua # Code formatting integration
+    ├── dap.lua # Debug Adapter Protocol (DAP) setup
+    ├── autopairs.lua # Autopairing brackets and quotes
+    ├── keymaps.lua # Keybindings and shortcuts
+    └── ui.lua # UI-related settings (statusline, theme, etc.)
 
 ```
 

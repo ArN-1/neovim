@@ -1,6 +1,65 @@
-# Ignore build outputs from performing a nix-build or `nix build` command
-result
-result-*
+# Neovim
+*.swp
+*.swo
+*.swn
+*.tmp
+*.backup
+*.undo
+*.log
+*.out
 
-# Ignore automatically generated direnv output
-.direnv
+# Neovim-specific directories (runtime & cache)
+nvim/.netrwhist
+nvim/shada/*
+nvim/undo/*
+nvim/backup/*
+nvim/swap/*
+nvim/site/pack/*
+nvim/site/autoload/plug.vim
+
+# Lua bytecode (if any)
+*.luac
+
+# LSP servers cache
+~/.cache/nvim/
+~/.local/share/nvim/
+~/.local/state/nvim/
+~/.config/nvim/.DS_Store
+
+# Telescope & plugin history
+session.vim
+telescope-history.json
+telescope-history.sqlite3
+
+# Node/Vim plug managers (optional)
+node_modules/
+plugged/
+packer_compiled.lua
+lazy-lock.json
+
+# System
+.DS_Store
+Thumbs.db
+
+# Nix
+result
+*.drv
+*.lock
+.cache/
+*.bak
+*.swp
+
+# VSCode/Nix editors (optional)
+.vscode/
+.idea/
+
+# Git
+*.orig
+
+# Logs and debug
+logs/
+*.log
+
+# Shell
+*.zsh_history
+*.bash_history
